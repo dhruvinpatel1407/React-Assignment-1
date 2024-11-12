@@ -33,10 +33,11 @@ const GenerateCaptcha = () => {
       <h3 style={{fontStyle : "oblique"}}>Click Button to generate captcha code</h3>
       <button
         onClick={handleGenerate}
-        style={{ fontSize: "25px", marginLeft: "30px" ,display : "block"}}
+        style={{ fontSize: "25px", marginLeft: "30px" , justifyContent : "center"}}
       >
         Captcha
       </button>
+      <br></br>
       
         
         <h4

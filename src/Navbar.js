@@ -22,22 +22,22 @@ function Navbar() {
           <ul id="nav-mobile" className="left hide-on-med-and-down">
             <li>
               <Link to="/home">
-                <h6 style={{ paddingTop: "8px" }}>Home</h6>
+                <h6 style={{ paddingTop: "8px",paddingBottom:"8px" }}>Home</h6>
               </Link>
             </li>
             <li>
               <Link to="/employee">
-                <h6 style={{ paddingTop: "8px" }}>Employee</h6>
+                <h6 style={{ paddingTop: "8px",paddingBottom:"8px" }}>Employee</h6>
               </Link>
             </li>
             <li>
               <Link to="/captcha">
-                <h6 style={{ paddingTop: "8px" }}>GenerateCaptcha</h6>
+                <h6 style={{ paddingTop: "8px",paddingBottom:"8px" }}>GenerateCaptcha</h6>
               </Link>
             </li>
             <li>
               <Link to="/otp">
-                <h6 style={{ paddingTop: "8px" }}>GenerateOtp</h6>
+                <h6 style={{ paddingTop: "8px",paddingBottom:"8px" }}>GenerateOtp</h6>
               </Link>
             </li>
           </ul>

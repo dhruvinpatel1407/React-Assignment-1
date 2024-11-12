@@ -29,11 +29,11 @@ const GenerateOtp = () => {
       <h3 style={{fontStyle : "oblique"}}>Click Button to generate Six Digit OTP</h3>
       <button
         onClick={handleGenerate}
-        style={{ fontSize: "30px", marginLeft: "30px",display : "block" }}
+        style={{ fontSize: "30px", marginLeft: "30px",justifyContent : "center" }}
       >
         OTP
       </button>
-      
+      <br></br>
         
         <h4
           style={{

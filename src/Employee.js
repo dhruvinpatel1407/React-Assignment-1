@@ -32,7 +32,7 @@ const Employee = () => {
           >
             <Link to={`/employee/${emp.id}`}>
             <img
-              src="/images.jpeg"
+              src="/images.png"
               alt="Profile"
               width={"150px"}
               height={"150px"}
