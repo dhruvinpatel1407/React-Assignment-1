@@ -6,7 +6,7 @@ function Employeedata() {
   const params = useParams();
   console.log(params);
   const filteredData = employee.filter(
-    (employee) => employee.id == params.employee_id
+    (employee) => employee.id === params.employee_id
   );
   return (
     <div style={{ paddingTop: "70px" }}>
@@ -60,7 +60,7 @@ function Employeedata() {
                   <a
                     href={`http://${employee.website}`}
                     target="_blank"
-                    rel="weblink"
+                    rel="weblink noreferrer"
                     style={{ color: "#007bff", textDecoration: "none" }}
                   >
                     {employee.website}
